@@ -74,7 +74,7 @@ class DailyBurnDown:
 
         self.url = 'https://'+self.jira_url+'/rest/greenhopper/latest/rapid/charts/sprintreport?rapidViewId='+str(rapidview_id)+'&sprintId='+str(sprint_id)
         json_object = self.call_api()
-        allowed_status = ["completedIssues", "issuesNotCompletedInCurrentSprint", "puntedIssues"]
+        allowed_status = ["completedIssues", "issuesNotCompletedInCurrentSprint"]
         allowed_type = ["Bug", "Story"]
         board_dict = {}
 
