@@ -1,7 +1,7 @@
 [![HitCount](http://hits.dwyl.io/donofden/jira-project-burndown-slack.svg)](http://hits.dwyl.io/donofden/jira-project-burndown-slack)
 
 # jira-project-burndown-slack
-CLI script to retrieving data from Azure DevOps
+CLI script to retrieving data from JIRA
 
 This script will fetch the current iteration of a given team and get the workitems to calculate the story points availabe in the columns. This can be used to know the burndown of a team in a daily basis.
 
